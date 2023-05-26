@@ -1,0 +1,12 @@
+let base;
+let altura;
+let area = base * altura;
+let areaRectangulo = "el rectángulo tiene un área de " + area + " centímetros";
+console.log("a. ¿Cuál es el área de un rectángulo de base 5cm y altura 3cm?");
+base = 5;
+altura = 3;
+console.log(areaRectangulo);
+console.log("b. ¿Cuál es el área de un rectángulo de base 12.5cm y altura 5.3cm?");
+base = 12.5;
+altura = 5.3;
+console.log(areaRectangulo);
